@@ -12,7 +12,7 @@ const CarTotal = () => {
     return (
         <div className="carTotal">
             <h4>Total a pagar : COP $ {total}.000 </h4>
-            <Link to="/Pagar">
+            <Link to="/RelatosDePapel/Pagar">
                 <button className="Pagar">Ir a pagar</button>
             </Link>
         </div>

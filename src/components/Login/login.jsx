@@ -10,7 +10,7 @@ const Login = () => {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            navigate('/home');
+            navigate('/RelatosDePapel/Home');
         }, 5000);
         return () => clearTimeout(timer);
     }, [navigate]);
@@ -51,7 +51,7 @@ const Login = () => {
                                 </input>
                                 <label for="email">  Email</label>
                             </div>
-                            <Link to="/Home">
+                            <Link to="/RelatosDePapel/Home">
                                 <button type="submit" class="btn waves-effect waves-light">
                                     Registrar
                                     <i class="material-icons right"></i>

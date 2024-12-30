@@ -25,7 +25,7 @@ const Products = () => {
                 {books.map((books, index) => (
                     <div className="card">
                         <h3>{books.name}</h3>
-                        <Link to={`/Libro/${index}`}>
+                        <Link to={`/RelatosDePapel/Libro/${index}`}>
                             <>
                                 <img src={books.image} alt={books.name} />
                             </>

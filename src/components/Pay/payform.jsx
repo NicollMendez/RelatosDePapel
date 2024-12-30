@@ -45,7 +45,7 @@ const PayForm = () => {
 
             <img src="https://cdn.kustomerhostedcontent.com/media/60880a0a850645260d030186/c0050f7d31eaa122ebb20178892da5f2.jpg" alt="Imagen Tarjeta"></img>
             <br />
-            <Link to="/Home" className="pay">
+            <Link to="/RelatosDePapel/Home" className="pay">
                 <button>Pagar</button>
             </Link>
             <br />

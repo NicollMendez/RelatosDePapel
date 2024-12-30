@@ -10,19 +10,19 @@ import Home from './components/home/home.jsx';
 
 const Router = createBrowserRouter([
   {
-    path: "/",
+    path: "/RelatosDePapel/",
     element: <App />,
   },
   {
-    path: "/Home",
+    path: "/RelatosDePapel/Home",
     element: <Home />
   },
   {
-    path: "/Carrito",
+    path: "/RelatosDePapel/Carrito",
     element: <Car />
   },
   {
-    path: "/Pagar",
+    path: "/RelatosDePapel/Pagar",
     element: <Pay />
   },
   // {
@@ -30,7 +30,7 @@ const Router = createBrowserRouter([
   //   element: <Book />
   // }
   {
-    path: "/Libro/:index",
+    path: "/RelatosDePapel/Libro/:index",
     element: <Book />
   }
 ])
