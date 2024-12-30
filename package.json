@@ -1,6 +1,7 @@
 {
   "name": "relatosdepapel",
   "private": true,
+  "homepage": "https://nicollmendez.github.io/RelatosDePapel/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
