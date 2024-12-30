@@ -1,0 +1,48 @@
+
+.container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.container h3 {
+    text-align: center;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.container form {
+    background-color: #444;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 450px;
+    height: 300px;
+}
+
+.input-field label {
+    color: #f1f1f1;
+    font-size: 20px;
+}
+
+.input-field input {
+    color: #f1f1f1;
+    font-size: 20px;
+}
+
+.container button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #1bcb7f;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 60px;
+}
