@@ -3,7 +3,7 @@ import Search from "../Search/search";
 import CarEle from "./carele.jsx";
 import CarTotal from "./cartotal.jsx";
 import { useContext } from "react";
-import Context from "../../context/Context";
+import Context from "../../context/context.jsx";
 
 const Car = () => {
     const { car } = useContext(Context);
