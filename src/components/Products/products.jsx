@@ -1,5 +1,5 @@
 import "./products.css";
-import { Context } from "../../Context/context";
+import { Context } from "../../context/context.jsx";
 import { useContext } from "react";
 import { Link } from "react-router";
 
