@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { Context } from "../../Context/context";
+import { Context } from "../../context/context";
 import { useContext } from "react";
 
 export const books = [

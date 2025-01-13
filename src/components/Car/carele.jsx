@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Context } from "../../Context/context";
+import { Context } from "../../context/context";
 
 const CarEle = () => {
 

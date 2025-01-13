@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Context } from "../../Context/context";
+import { Context } from "../../context/context";
 import "./car.css";
 import { Link } from "react-router";
 

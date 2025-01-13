@@ -5,7 +5,7 @@ import Car from "./components/Car/car";
 import Pay from './components/Pay/pay.jsx';
 import Book from './components/Book/book.jsx';
 import { createBrowserRouter, RouterProvider } from "react-router";
-import ContextProvider from './Context/context.jsx';
+import ContextProvider from './context/context.jsx';
 import Home from './components/home/home.jsx';
 
 const Router = createBrowserRouter([
