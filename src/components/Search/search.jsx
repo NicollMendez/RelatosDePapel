@@ -6,21 +6,21 @@ const Search = () => {
     return (
         <div className="search-content">
             <nav className="search">
-                <Link to="/RelatosDePapel/Home">
+                <Link to="/Home">
                     <h1 className="search-logo">Relatos de Papel</h1>
                 </Link>
                 <div class="search-bar">
                     <form action="" method="">
                         <input type="search" placeholder="Escribe aqui..."></input>
-                        <Link to="/RelatosDePapel/Home">
+                        <Link to="/Home">
                             <button>Buscar</button>
                         </Link>
                     </form>
                 </div>
-                <Link to="/RelatosDePapel/Carrito">
+                <Link to="/Carrito">
                     <h2 className="search-cart">🛒</h2>
                 </Link>
-                <Link to="/RelatosDePapel/">
+                <Link to="/">
                 <h2 className="search-cart">👤</h2>
                 </Link>
             </nav>

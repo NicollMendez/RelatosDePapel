@@ -1,5 +1,5 @@
 import "./products.css";
-import { Context } from "../../context/context.jsx";
+import { Context } from "../../Context/context";
 import { useContext } from "react";
 import { Link } from "react-router";
 
@@ -25,7 +25,7 @@ const Products = () => {
                 {books.map((books, index) => (
                     <div className="card">
                         <h3>{books.name}</h3>
-                        <Link to={`/RelatosDePapel/Libro/${index}`}>
+                        <Link to={`/Libro/${index}`}>
                             <>
                                 <img src={books.image} alt={books.name} />
                             </>

@@ -5,24 +5,24 @@ import Car from "./components/Car/car";
 import Pay from './components/Pay/pay.jsx';
 import Book from './components/Book/book.jsx';
 import { createBrowserRouter, RouterProvider } from "react-router";
-import Home from './components/Home/home.jsx';
-import ContextProvider from "./context/context";
+import ContextProvider from './Context/context.jsx';
+import Home from './components/home/home.jsx';
 
 const Router = createBrowserRouter([
   {
-    path: "/RelatosDePapel/",
+    path: "/",
     element: <App />,
   },
   {
-    path: "/RelatosDePapel/Home",
+    path: "/Home",
     element: <Home />
   },
   {
-    path: "/RelatosDePapel/Carrito",
+    path: "/Carrito",
     element: <Car />
   },
   {
-    path: "/RelatosDePapel/Pagar",
+    path: "/Pagar",
     element: <Pay />
   },
   // {
@@ -30,7 +30,7 @@ const Router = createBrowserRouter([
   //   element: <Book />
   // }
   {
-    path: "/RelatosDePapel/Libro/:index",
+    path: "/Libro/:index",
     element: <Book />
   }
 ])

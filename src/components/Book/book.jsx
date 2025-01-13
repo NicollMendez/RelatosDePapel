@@ -1,4 +1,4 @@
-import Search from '../Search/search.jsx';
+import Search from '../Search/Search';
 import './book.css';
 import BookView from "./bookview";
 

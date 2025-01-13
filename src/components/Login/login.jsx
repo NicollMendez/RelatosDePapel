@@ -1,5 +1,5 @@
 import LoginConf from "./loginconf";
-import Search from "../Search/search.jsx";
+import Search from "../Search/Search";
 import "./login.css";
 import { Link } from "react-router";
 import React, { useEffect } from 'react';
@@ -10,7 +10,7 @@ const Login = () => {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            navigate('/RelatosDePapel/Home');
+            navigate('/home');
         }, 5000);
         return () => clearTimeout(timer);
     }, [navigate]);
@@ -51,7 +51,7 @@ const Login = () => {
                                 </input>
                                 <label for="email">  Email</label>
                             </div>
-                            <Link to="/RelatosDePapel/Home">
+                            <Link to="/Home">
                                 <button type="submit" class="btn waves-effect waves-light">
                                     Registrar
                                     <i class="material-icons right"></i>

@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Context } from "../../context/context.jsx";
+import { Context } from "../../Context/context";
 
 const PayEle = () => {
 
