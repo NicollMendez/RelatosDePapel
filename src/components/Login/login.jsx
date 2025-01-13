@@ -1,5 +1,5 @@
 import LoginConf from "./loginconf";
-import Search from "../Search/Search";
+import Search from "../Search/search.jsx";
 import "./login.css";
 import { Link } from "react-router";
 import React, { useEffect } from 'react';

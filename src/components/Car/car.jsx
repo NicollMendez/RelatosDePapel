@@ -1,5 +1,5 @@
 import "./car.css";
-import Search from "../Search/search";
+import Search from "../Search/search.jsx";
 import CarEle from "./carele.jsx";
 import CarTotal from "./cartotal.jsx";
 import { useContext } from "react";
